@@ -13,8 +13,10 @@ produtos.forEach((chave, valor) =>{
 //Exerc. 2 - Criar um map com nomes e acessá-los através do .get
 
 const nomes = new Map([
-    ['Nome 1:', 'João'],
-    ['Nome 2:', 'Márcio']
-    ['Nome 3:', 'Pedro']
+    ['Nome 1', 'João'],
+    ['Nome 2', 'Márcio'],
+    ['Nome 3', 'Pedro'],
 ]);
+
+console.log(nomes.get('Nome 2'));
 
