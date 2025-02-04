@@ -40,3 +40,24 @@ function calculoMedias (notaAlunos) {
 } 
 
 console.log(`A média é: ${calculoMedias(notaAlunos)}`);
+
+// Exer. 4 - Crie um map com dados de cidades e populações e após filtrar e retornar as cidades com populações maior ou igual a 1 milhão
+
+ const cidades = new Map([
+    ['Maricá', 197300],
+    ['Niterói', 480000],
+    ['São Gonçalo', 1000000],
+    ['Rio de Janeiro', 6000000],
+ ]);
+
+ const acimaDe1M = [];
+
+cidades.forEach((populacao, cidade) => {
+    if (populacao >= 1000000) {
+        acimaDe1M.push(cidade);
+    }  
+})
+
+console.log(acimaDe1M);
+
+
