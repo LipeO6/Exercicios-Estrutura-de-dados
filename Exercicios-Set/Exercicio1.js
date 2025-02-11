@@ -1,4 +1,4 @@
-// Exerc. 1 -  Criar, verificar, adicionar e remover item do SET
+// Exerc. 1 -  Criar, verificar, adicionar e remover itens do SET
 
 let numeros = new Set([1, 2, 3, 4 ,5]);
 console.log(numeros.size);
@@ -26,7 +26,7 @@ numbers.forEach((number) => {
 
 console.log(numbers.has((7)));
 
-// Exerc. 4 - Excreva uma função p/ remover valores duplicados de um array usando set.
+// Exerc. 4 - Escreva uma função p/ remover valores duplicados de um array usando set.
 
 function removerDuplicatas(array) {
     return Array.from(new Set(array));
